@@ -1,0 +1,87 @@
+@import url(reset.css);
+/* загальні стилі */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #272727;
+}
+ul,
+ol,
+li {
+	color: brown;
+}
+/* Шапка */
+.header {
+	font-size: 20px;
+}
+.header_container {
+}
+.header_container_left {
+}
+.header_logo {
+	width: 200px;
+	height: auto;
+}
+.breadcrumbs {
+	color: green;
+}
+.breadcrumbs span {
+	color: lightgreen;
+}
+
+/* Меню */
+.header_container_right {
+	color: #272727;
+}
+.top_menu_items {
+}
+.top_menu_item {
+}
+.top_menu_link {
+	color: blue;
+}
+.top_menu_item .menu_prehistory li {
+	color: rgb(134, 226, 43);
+}
+.top_menu_item .menu_metal li {
+	color: blueviolet;
+}
+.top_menu_link.active {
+	color: darkblue;
+}
+
+
+/* Контент */
+.main {
+}
+.main_container {
+}
+.prehistory {
+	color: red;
+}
+.prehistory ul li {
+	color: cadetblue;
+}
+.prehistory #paleolit {
+	color: #f9d5f1;
+}
+.prehistory #paleolit mark {
+	color: #d9d9d9;
+}
+
+/* Підвал */
+footer a {
+	color: blueviolet;
+}
+.footer {
+	color: #f9d5f1
+}
+.footer_container {
+	
+}
+footer .copyright a{
+	color:aqua;
+}
